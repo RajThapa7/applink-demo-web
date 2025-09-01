@@ -28,6 +28,22 @@ const SimpleDeepLinking = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white">
+      {/* meta tags */}
+      <title>Talent Star Nepal</title>
+      <meta
+        name="description"
+        content="Open the Talent Star Nepal app or download it."
+      />
+      <meta property="og:title" content="Talent Star Nepal" />
+      <meta
+        property="og:description"
+        content="Showcase your skills on Talent Star Nepal."
+      />
+      <meta
+        property="og:image"
+        content="https://img.freepik.com/free-photo/abstract-background-pontillize_58702-6162.jpg"
+      />
+
       <div className="text-center p-8 max-w-md mx-auto">
         {/* App Icon */}
         <div className="w-24 h-24 bg-white rounded-3xl mx-auto mb-6 flex items-center justify-center text-3xl font-bold text-indigo-500 shadow-lg">
